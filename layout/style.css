@@ -20,6 +20,7 @@ header{
     top:0;
 }
 
+
 p{
     text-indent: 4em;
     margin-left:5%;
@@ -36,7 +37,7 @@ p{
 }
 
 #apresentacao1,#apresentacao2{
-    margin-top:5%;
+    margin-top:10%;
     margin-bottom:5%;
     margin-left:10%;
     margin-right:10%;
@@ -49,7 +50,10 @@ p{
     margin-right:10%;
 }
 
+
+
 @media screen and (max-width: 590px) {
+
 body{
 
 }
@@ -59,6 +63,10 @@ body{
 }
 
 #apresentacao1 h1{
+    font-size: 20px;
+}
+
+#apresentacao2 h1{
     font-size: 20px;
 }
 
@@ -74,10 +82,6 @@ body{
     font-size: 16px;
 }
 
-#apresentacao2 h1{
-    font-size: 25px;
-}
-
 #icone2{
     width: 20px;
 }
@@ -89,4 +93,6 @@ body{
     margin-top: 10%;
     margin-bottom: 5%;
 }
+
+
 }
