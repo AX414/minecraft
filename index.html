@@ -25,24 +25,32 @@
 
 <body>
     <header>
-        <!-- Image and text -->
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <img src="imagens/icones/icone_nav.png" width="200" class="d-inline-block align-top" alt="logo">
-            </a>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="">Seção 1<span class="sr-only">(current)</span></a>
-                    <a class="nav-link active" href="">Seção 2</a>
-                    <a class="nav-link active" href="">Seção 3</a>
-                </div>
+            <img src="imagens/icones/icone_nav.png" width="200" class="d-inline-block align-top" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                <a class="nav-link" href="">Seção1</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="">Seção2</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="">Seção3</a>
+                </li>
+            </ul>
             </div>
         </nav>
+
     </header>
 
     <div id="apresentacao1" class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="text-center display-4">O que é Minecraft<img src="imagens/icones/icone2.png" width="48px"> ?</h1>
+            <h1 class="text-center display-4">O que é Minecraft <img src="imagens/icones/icone2.png" id="icone2" width="48px"> ?</h1>
             <hr class="my-4">
             <p class="lead">Minecraft é um jogo eletrônico sandbox de sobrevivência criado pelo desenvolvedor sueco Markus "Notch" Persson 
                 e posteriormente desenvolvido e publicado pela Mojang Studios, cujo foi obtida pela Microsoft em 2014. Lançado inicialmente 
