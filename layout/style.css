@@ -96,3 +96,49 @@ body{
 
 
 }
+
+@media screen and (max-height: 590px) {
+
+
+    #apresentacao1,#apresentacao2{
+        margin-top:100px;
+    }
+    
+    #apresentacao1 h1{
+        font-size: 22px;
+    }
+    
+    #apresentacao2 h1{
+        font-size: 22px;
+    }
+    
+    #apresentacao1 p {
+        margin-left:5%;
+        margin-right:5%;
+        font-size: 16px;
+    }
+    
+    #apresentacao2 p {
+        margin-left:5%;
+        margin-right:5%;
+        font-size: 16px;
+    }
+    
+    #icone2{
+        width: 20px;
+    }
+    
+    #acao3{
+        justify-content: center;
+        width: 350px;
+        margin-right: 20%;
+        margin-left: 10%;
+    }
+    
+    
+
+
+
+
+
+}
