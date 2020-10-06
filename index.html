@@ -20,44 +20,69 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <link href="layout/style.css" rel="stylesheet">
+    <link href="scripts/eventos.js" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/icones/icone.png" type="image/x-png">
 </head>
 
 <body>
     <header>
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <img src="imagens/icones/icone_nav.png" width="200" class="d-inline-block align-top" alt="logo">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                <a class="nav-link" href="">Seção1</a>
-                </li>
-                <li class="nav-item active">
-                <a class="nav-link" href="">Seção2</a>
-                </li>
-                <li class="nav-item active">
-                <a class="nav-link" href="">Seção3</a>
-                </li>
-            </ul>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Seções
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">O que é?</a>
+                            <a class="dropdown-item" href="#">Para que serve?</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Desenvolvidos</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Imagens</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Temas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Alto Contraste</a>
+                            <a class="dropdown-item" href="#">Extra</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Normal</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </nav>
-
     </header>
 
     <div id="apresentacao1" class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="text-center display-4">O que é Minecraft <img src="imagens/icones/icone2.png" id="icone2" width="48px"> ?</h1>
+            <h1 class="text-center display-4">O que é Minecraft <img src="imagens/icones/icone2.png" id="icone2"
+                    width="48px"> ?</h1>
             <hr class="my-4">
-            <p class="lead">Minecraft é um jogo eletrônico sandbox de sobrevivência criado pelo desenvolvedor sueco Markus "Notch" Persson 
-                e posteriormente desenvolvido e publicado pela Mojang Studios, cujo foi obtida pela Microsoft em 2014. Lançado inicialmente 
-                em maio de 2009 como um projeto em desenvolvimento, seu lançamento completo ocorreu em novembro de 2011 para Microsoft Windows, 
+            <p class="lead">Minecraft é um jogo eletrônico sandbox de sobrevivência criado pelo desenvolvedor sueco
+                Markus "Notch" Persson
+                e posteriormente desenvolvido e publicado pela Mojang Studios, cujo foi obtida pela Microsoft em 2014.
+                Lançado inicialmente
+                em maio de 2009 como um projeto em desenvolvimento, seu lançamento completo ocorreu em novembro de 2011
+                para Microsoft Windows,
                 macOS e Linux, sendo posteriormente relançado para uma ampla variedade de plataformas. </p>
             <p class="lead"> É o jogo mais vendido de todos os tempos,
-                vendendo mais de 200 milhões de cópias em todas as plataformas até maio de 2020, com mais de 126 milhões de jogadores ativos 
+                vendendo mais de 200 milhões de cópias em todas as plataformas até maio de 2020, com mais de 126 milhões
+                de jogadores ativos
                 mensalmente.</p>
         </div>
     </div>
@@ -67,16 +92,73 @@
             <h1 class="text-center display-4">Para que serve?</h1>
             <hr class="my-4">
             <img src="imagens/ação/ação3.png" id="acao3">
-            <p class="lead" >Minecraft é considerado por muitos críticos e jogadores como um dos melhores jogos de todos os tempos bem como 
-                um dos mais influentes. Em 2015, a USgamer colocou-o em 6º lugar em sua lista dos 15 Melhores Jogos Desde o Ano 2000.
-                Em 2016, Minecraft foi colocado em 6º lugar na lista dos 50 Melhores Jogos de Todos os Tempos da revista Time.
-                Em setembro de 2019, a The Guardian classificou Minecraft como o melhor jogo (das duas primeiras décadas) do século 21 
+            <p class="lead">Minecraft é considerado por muitos críticos e jogadores como um dos melhores jogos de todos
+                os tempos bem como
+                um dos mais influentes. Em 2015, a USgamer colocou-o em 6º lugar em sua lista dos 15 Melhores Jogos
+                Desde o Ano 2000.
+                Em 2016, Minecraft foi colocado em 6º lugar na lista dos 50 Melhores Jogos de Todos os Tempos da revista
+                Time.
+                Em setembro de 2019, a The Guardian classificou Minecraft como o melhor jogo (das duas primeiras
+                décadas) do século 21
                 e em novembro de 2019 a Polygon chamou-o de "o jogo mais importante da década". </p>
-            <p class="lead"> Em dezembro de 2019, a Forbes fez uma menção especial ao Minecraft em uma lista dos melhores jogos dos anos 2010,
-                afirmando que é "sem dúvida um dos jogos mais importantes dos últimos dez anos". A Wired colocou-o em 2º lugar em sua 
+            <p class="lead"> Em dezembro de 2019, a Forbes fez uma menção especial ao Minecraft em uma lista dos
+                melhores jogos dos anos 2010,
+                afirmando que é "sem dúvida um dos jogos mais importantes dos últimos dez anos". A Wired colocou-o em 2º
+                lugar em sua
                 lista dos 10 Jogos Mais Influentes da Década [de 2010].</p>
         </div>
     </div>
+
+
+    <div id="apresentacao4" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="text-center display-4">Imagens:</h1>
+            <hr class="my-4">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block" src="imagens/slide/1.jpg" alt="First slide">
+                        <div id="comentario" class="carousel-caption bg-light d-none d-md-block">
+                            <h5>Diversos Biomas</h5>
+                            <hr class="my-4">
+                            <p>Explore um mundo com biomas diversos em meio a uma grande aventura!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="imagens/slide/2.jpg" alt="Second slide">
+                        <div id="comentario" class="carousel-caption bg-light">
+                            <h5>Nova Atualização</h5>
+                            <hr class="my-4">
+                            <p>Aproveite o update do Nether, contando com novas texturas e mobs!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="imagens/slide/3.jpg" alt="Third slide">
+                        <div id="comentario" class="carousel-caption bg-light d-none d-md-block">
+                            <h5>Minecraft Dungeons</h5>
+                            <hr class="my-4">
+                            <p>Jogue o novo jogo da franquia, Minecraft Dungeons!</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-light">
+        <p class="lead text-center">João Porcel-3006867</p>
+    </footer>
 
 </body>
 
