@@ -12,7 +12,12 @@ body{
     background-repeat: no-repeat;
     background-color:#282a36; 
     background-size: cover;
+}
 
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
 }
 
 p{
@@ -30,16 +35,7 @@ p{
 
 }
 
-#apresentacao1{
-    margin-top:5%;
-    margin-bottom:5%;
-    margin-left:10%;
-    margin-right:10%;
-
-    border-radius: 25px;
-}
-
-#apresentacao2{
+#apresentacao1,#apresentacao2{
     margin-top:5%;
     margin-bottom:5%;
     margin-left:10%;
@@ -54,8 +50,43 @@ p{
 }
 
 @media screen and (max-width: 590px) {
-    body{
-        
-    }
+body{
 
+}
+
+#apresentacao1,#apresentacao2{
+    margin-top:100px;
+}
+
+#apresentacao1 h1{
+    font-size: 20px;
+}
+
+#apresentacao1 p {
+    margin-left:5%;
+    margin-right:5%;
+    font-size: 16px;
+}
+
+#apresentacao2 p {
+    margin-left:5%;
+    margin-right:5%;
+    font-size: 16px;
+}
+
+#apresentacao2 h1{
+    font-size: 25px;
+}
+
+#icone2{
+    width: 20px;
+}
+
+#acao3{
+    justify-content: center;
+    width: 250px;
+    bottom:0;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
 }
