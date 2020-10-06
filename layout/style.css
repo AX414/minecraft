@@ -97,7 +97,7 @@ body{
 
 }
 
-@media screen and (max-height: 590px) {
+@media screen and (max-height: 490px) {
 
 
     #apresentacao1,#apresentacao2{
@@ -131,7 +131,7 @@ body{
     #acao3{
         justify-content: center;
         width: 350px;
-        margin-right: 20%;
+        margin-right: 10%;
         margin-left: 10%;
     }
     
