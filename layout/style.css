@@ -28,12 +28,17 @@ header{
 }
 
 footer{
+    width: 100%;
     padding: 1px;
     bottom:0;
+    z-index: 1;
 }
 
-footer p{
-    text-indent: 0em;
+footer div{
+    color:black;
+    text-indent: 4em;
+    margin-right: 35%;
+    margin-left: 35%;
 }
 
 p{
@@ -51,7 +56,6 @@ h1{
 h5{
     font-size: 20px;
 }
-
 
 #acao2,#acao3{
     float: left;
@@ -87,10 +91,18 @@ h5{
     padding-right: 50px;
 }
 
-
 #apresentacao4 img{
     height:100%;
     width: 100%;
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#rodape{
+    color:black;
 }
 
 .comentario{
@@ -98,11 +110,6 @@ h5{
     height: 130px;
     width: 100%;
     bottom:0;
-}
-
-#navbarNav{
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .carousel-inner{
