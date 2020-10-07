@@ -58,7 +58,7 @@ function voltarNormal() {
     var apresentacao6 = document.getElementById("apresentacao6");
     var apresentacao7 = document.getElementById("apresentacao7");
 
-    body.style.backgroundImage = "url(../imagens/background.jpg)";
+    body.style.backgroundImage = "url(imagens/background.jpg)";
     body.style.color = "black";
 
     apresentacao1.style.backgroundColor = "#f7f7f7";
