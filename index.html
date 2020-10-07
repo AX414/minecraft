@@ -6,21 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft</title>
     <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="bibliotecas/bootstrap-4.5.2-dist/css/bootstrap.min.css">
 
     <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+    <script src="bibliotecas/jquery-3.5.1.min.js"></script>
+    <script src="bibliotecas/popper.min.js"></script>
+    <script src="bibliotecas/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
     <link href="layout/style.css" rel="stylesheet">
-    <link href="scripts/eventos.js" rel="stylesheet">
+    <script src="scripts/eventosDinamico.js"></script>
+    <script src="scripts/eventos_trabalho.js"></script>
+
     <link rel="shortcut icon" href="imagens/icones/icone.png" type="image/x-png">
 </head>
 
@@ -35,32 +30,32 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-
+                    
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Seções
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">O que é?</a>
-                            <a class="dropdown-item" href="#">Para que serve?</a>
+                            <a class="dropdown-item" href="#" id="irParaSecao1">O que é?</a>
+                            <a class="dropdown-item" href="#" id="irParaSecao2">Para que serve?</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Desenvolvidos</a>
+                            <a class="dropdown-item" href="#" id="irParaSecao3">Desenvolvidos</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Imagens</a>
+                            <a class="dropdown-item" href="#" id="irParaSecao4">Imagens</a>
                         </div>
                     </li>
-
+                
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Temas
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Alto Contraste</a>
-                            <a class="dropdown-item" href="#">Extra</a>
+                            <a class="dropdown-item" id="opAltoContraste">Alto Contraste</a>
+                            <a class="dropdown-item" id="opExtra">Extra</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Normal</a>
+                            <a class="dropdown-item" id="opNormal">Normal</a>
                         </div>
                     </li>
                 </ul>
@@ -95,12 +90,13 @@
             <p class="lead">Minecraft é considerado por muitos críticos e jogadores como um dos melhores jogos de todos
                 os tempos bem como
                 um dos mais influentes. Em 2015, a USgamer colocou-o em 6º lugar em sua lista dos 15 Melhores Jogos
-                Desde o Ano 2000.
-                Em 2016, Minecraft foi colocado em 6º lugar na lista dos 50 Melhores Jogos de Todos os Tempos da revista
+                Desde o Ano 2000.</p>
+            <p class="lead">Em 2016, Minecraft foi colocado em 6º lugar na lista dos 50 Melhores Jogos de Todos os
+                Tempos da revista
                 Time.
                 Em setembro de 2019, a The Guardian classificou Minecraft como o melhor jogo (das duas primeiras
-                décadas) do século 21
-                e em novembro de 2019 a Polygon chamou-o de "o jogo mais importante da década". </p>
+                décadas) do século 21 e em novembro de 2019 a Polygon chamou-o de "o jogo mais
+                importante da década". </p>
             <p class="lead"> Em dezembro de 2019, a Forbes fez uma menção especial ao Minecraft em uma lista dos
                 melhores jogos dos anos 2010,
                 afirmando que é "sem dúvida um dos jogos mais importantes dos últimos dez anos". A Wired colocou-o em 2º
@@ -120,7 +116,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block" src="imagens/slide/1.jpg" alt="First slide">
-                        <div id="comentario" class="carousel-caption bg-light d-none d-md-block">
+                        <div class="comentario carousel-caption bg-light d-none d-md-block">
                             <h5>Diversos Biomas</h5>
                             <hr class="my-4">
                             <p>Explore um mundo com biomas diversos em meio a uma grande aventura!</p>
@@ -128,7 +124,7 @@
                     </div>
                     <div class="carousel-item">
                         <img class="d-block" src="imagens/slide/2.jpg" alt="Second slide">
-                        <div id="comentario" class="carousel-caption bg-light">
+                        <div class="comentario  carousel-caption bg-light">
                             <h5>Nova Atualização</h5>
                             <hr class="my-4">
                             <p>Aproveite o update do Nether, contando com novas texturas e mobs!</p>
@@ -136,7 +132,7 @@
                     </div>
                     <div class="carousel-item">
                         <img class="d-block" src="imagens/slide/3.jpg" alt="Third slide">
-                        <div id="comentario" class="carousel-caption bg-light d-none d-md-block">
+                        <div class="comentario carousel-caption bg-light d-none d-md-block">
                             <h5>Minecraft Dungeons</h5>
                             <hr class="my-4">
                             <p>Jogue o novo jogo da franquia, Minecraft Dungeons!</p>
