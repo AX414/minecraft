@@ -98,7 +98,6 @@ function voltarNormal() {
     apresentacao5.style.backgroundColor = "#f7f7f7";
     apresentacao6.style.backgroundColor = "#f7f7f7";
     apresentacao7.style.backgroundColor = "#f7f7f7";
-
 }
 
 // documento carregado <-> void main(){ .....
