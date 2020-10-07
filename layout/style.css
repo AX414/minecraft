@@ -72,6 +72,7 @@ h5{
     margin-right:10%;
 
     border-radius: 25px;
+    background-color: #f7f7f7;
 }
 
 #apresentacao2 p {
@@ -102,7 +103,7 @@ h5{
 }
 
 #rodape{
-    color:black;
+    text-align: center;
 }
 
 .comentario{
@@ -110,6 +111,7 @@ h5{
     height: 130px;
     width: 100%;
     bottom:0;
+    background-color: #f7f7f7;
 }
 
 .carousel-inner{
