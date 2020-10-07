@@ -24,7 +24,7 @@ $(function () { // jquery
     $("#irParaSecao1").on("click", function () {
         scrollPara("#apresentacao1");
     });
-v
+
     $("#irParaSecao2").on("click", function () {
         scrollPara("#apresentacao2");
     });
