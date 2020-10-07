@@ -61,7 +61,7 @@ function ativarExtra() {
     var apresentacao6 = document.getElementById("apresentacao6");
     var apresentacao7 = document.getElementById("apresentacao7");
 
-    body.style.backgroundImage = "url(../imagens/ender.jpg)";
+    body.style.backgroundImage = "url(imagens/ender.jpg)";
     body.style.backgroundColor = "#282a36";
     body.style.color = "#ff79c6";
     
@@ -88,7 +88,7 @@ function voltarNormal() {
     var apresentacao6 = document.getElementById("apresentacao6");
     var apresentacao7 = document.getElementById("apresentacao7");
 
-    body.style.backgroundImage = "url(../imagens/background.jpg)";
+    body.style.backgroundImage = "url(imagens/background.jpg)";
     body.style.color = "black";
 
     apresentacao1.style.backgroundColor = "#f7f7f7";
