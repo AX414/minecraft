@@ -37,6 +37,17 @@ v
         scrollPara("#apresentacao4");
     });
 
+    $("#irParaSecao5").on("click", function () {
+        scrollPara("#apresentacao5");
+    });
+
+    $("#irParaSecao6").on("click", function () {
+        scrollPara("#apresentacao6");
+    });
+
+    $("#irParaSecao7").on("click", function () {
+        scrollPara("#apresentacao7");
+    });
     
 
 
