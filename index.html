@@ -22,7 +22,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <img src="imagens/icones/icone_nav.png" width="200" class="d-inline-block align-top" alt="logo">
+            <img src="imagens/icones/icone_nav.png" width="50px" class="d-inline-block align-top" alt="logo">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,24 +31,33 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
 
+                    <li id="espaco_em_branco">
+
+                    </li>
+
                     <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="drop1" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
                             Seções
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#" id="irParaSecao1">O que é?</a>
                             <a class="dropdown-item" href="#" id="irParaSecao2">Para que serve?</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#" id="irParaSecao3">Desenvolvidos</a>
+                            <a class="dropdown-item" href="#" id="irParaSecao3">Exemplos de Aplicação</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#" id="irParaSecao4">Imagens</a>
+                            <a class="dropdown-item" href="#" id="irParaSecao4">Screenshots</a>
+                            <a class="dropdown-item" href="#" id="irParaSecao7">Video</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#" id="irParaSecao5">Referências</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#" id="irParaSecao6">Contatos</a>
                         </div>
                     </li>
 
                     <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="drop2" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
                             Temas
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -58,6 +67,7 @@
                             <a class="dropdown-item" id="opNormal">Normal</a>
                         </div>
                     </li>
+
                 </ul>
             </div>
         </nav>
@@ -66,13 +76,14 @@
     <div id="apresentacao1" class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="text-center display-4">O que é Minecraft <img src="imagens/icones/icone2.png" id="icone2"
-                    width="48px"> ?</h1>
+                    width="38px"> ?</h1>
             <hr class="my-4">
             <p class="lead">Minecraft é um jogo eletrônico sandbox de sobrevivência criado pelo desenvolvedor sueco
-                Markus "Notch" Persson e posteriormente desenvolvido e publicado pela Mojang Studios, 
+                Markus "Notch" Persson e posteriormente desenvolvido e publicado pela Mojang Studios,
                 cujo foi obtida pela Microsoft em 2014.</p>
-            <p class="lead">Lançado inicialmente em maio de 2009 como um projeto em desenvolvimento, seu 
-                lançamento completo ocorreu em novembro de 2011 para Microsoft Windows, macOS e Linux, sendo posteriormente relançado para uma ampla variedade de plataformas. </p>
+            <p class="lead">Lançado inicialmente em maio de 2009 como um projeto em desenvolvimento, seu
+                lançamento completo ocorreu em novembro de 2011 para Microsoft Windows, macOS e Linux, sendo
+                posteriormente relançado para uma ampla variedade de plataformas. </p>
             <p class="lead"> É o jogo mais vendido de todos os tempos,
                 vendendo mais de 200 milhões de cópias em todas as plataformas até maio de 2020, com mais de 126 milhões
                 de jogadores ativos
@@ -84,7 +95,9 @@
         <div class="container">
             <h1 class="text-center display-4">Para que serve?</h1>
             <hr class="my-4">
-            <img src="imagens/ação/ação3.png" id="acao3">
+            <div id="imagens">
+                <img src="imagens/ação/ação2.png" id="acao2">
+            </div>
             <p class="lead">Minecraft é considerado por muitos críticos e jogadores como um dos melhores jogos de todos
                 os tempos bem como
                 um dos mais influentes. Em 2015, a USgamer colocou-o em 6º lugar em sua lista dos 15 Melhores Jogos
@@ -105,30 +118,26 @@
 
     <div id="apresentacao3" class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="text-center display-4">Para que serve?</h1>
+            <h1 class="text-center display-4">Exemplos de Aplicação:</h1>
             <hr class="my-4">
-            <img src="imagens/ação/ação3.png" id="acao3">
-            <p class="lead">Minecraft é considerado por muitos críticos e jogadores como um dos melhores jogos de todos
-                os tempos bem como
-                um dos mais influentes. Em 2015, a USgamer colocou-o em 6º lugar em sua lista dos 15 Melhores Jogos
-                Desde o Ano 2000.</p>
-            <p class="lead">Em 2016, Minecraft foi colocado em 6º lugar na lista dos 50 Melhores Jogos de Todos os
-                Tempos da revista
-                Time.
-                Em setembro de 2019, a The Guardian classificou Minecraft como o melhor jogo (das duas primeiras
-                décadas) do século 21 e em novembro de 2019 a Polygon chamou-o de "o jogo mais
-                importante da década". </p>
-            <p class="lead"> Em dezembro de 2019, a Forbes fez uma menção especial ao Minecraft em uma lista dos
-                melhores jogos dos anos 2010,
-                afirmando que é "sem dúvida um dos jogos mais importantes dos últimos dez anos". A Wired colocou-o em 2º
-                lugar em sua
-                lista dos 10 Jogos Mais Influentes da Década [de 2010].</p>
+            <div id="imagensAcao">
+                <img src="imagens/ação/ação3.png" id="acao3">
+            </div>
+            <p class="lead">Desde que Minecraft fora lançado, uma gigantesca comunidade se formou
+                e juntos todos decidiram liberar sua imaginação, realizando desde circuitos de redstone
+                para automatizar diversos blocos do jogo, criando cidades gigantes seja embaixo da água
+                ou suspensa no ar!</p>
+            <p class="lead">Minecraft também recebeu uma vasta comunidade de modificadores, habilitando novas texturas,
+                inserindo novas criaturas e ressucitando velhas lendas entre a comunidade tal como Herobrine,
+                além disso, minecraft já recebeu modificações para que educadores utilizassem o jogo ao seu favor, um
+                exemplo seria o Minecraft Edu.
+            </p>
         </div>
     </div>
 
     <div id="apresentacao4" class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="text-center display-4">Imagens:</h1>
+            <h1 class="text-center display-4">Screenshots:</h1>
             <hr class="my-4">
 
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -171,8 +180,97 @@
         </div>
     </div>
 
+    <div id="apresentacao5" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="text-center display-4">Referências <img src="imagens/icones/livro.png" id="livro" width="60px"> :
+            </h1>
+            <hr class="my-4">
+        </div>
+
+        <div id="imagens">
+            <div id="imagem1">
+                <a href="https://twitter.com/mojang">
+                    <img src="imagens/icones/mojang.gif" id="ico_mojang" width="150px">
+                </a>
+            </div>
+        </div>
+
+        <div id="imagens">
+            <div id="imagem2">
+                <a href="https://minecraft-pt.gamepedia.com/Minecraft_Wiki">
+                    <img src="imagens/icones/wiki.png" id="ico_wiki" width="150px">
+                </a>
+            </div>
+        </div>
+
+        <div id="imagens">
+            <div id="imagem3">
+                <a href="https://www.minecraft.net/pt-pt">
+                    <img src="imagens/icones/minecraft.png" id="ico_mine" width="150px">
+                </a>
+            </div>
+        </div>
+
+
+        <div id="referencia">
+            <p class="lead">Fique ligado na Mojang Studios! Vira e mecha eles colocam informações pertinentes na rede
+                social, sabe por quê? Porque Minecraft não irá parar tão cedo! Então fique ligado nas novas atualizações
+                do Studio!
+            </p>
+        </div>
+
+        <div id="referencia">
+            <p class="lead">Minecraft Wiki é uma wiki publicamente acessível e editável
+                sobre informações sobre o Minecraft e assuntos relacionados. A wiki e seus 2
+                131 artigos são gerenciados e mantidos por 41 contribuidores ativos da comunidade
+                do Minecraft, juntamente com a equipe de administração da wiki. Qualquer um pode contribuir!
+            </p>
+        </div>
+
+        <div id="referencia">
+            <p class="lead">Este é o site original de Minecraft, ele apresenta diversos recursos como
+                suporte, acesso à comunidade, permite que realize a compra do jogo original e inclusive outros jogos
+                que carregam o título de minecraft, bem como diversas notícias vinculadas ao game que vem sendo
+                atualizado
+                até os dias de hoje!
+            </p>
+        </div>
+    </div>
+
+    <div id="apresentacao7" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="text-center display-4">Trailer Novo!</h1>
+            <hr class="my-4">
+            <video width="640px" controls>
+                <source src="video/trailer.mp4" type="video/mp4">
+                Seus browser não suporta este formato de vídeo.
+            </video>
+        </div>
+    </div>
+
 
     <footer class="bg-light">
+        <div id="apresentacao6" class=" bg-light jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="text-center display-4">Contato:</h1>
+                <hr class="my-4">
+                <div id="imagensAcao">
+                    <img src="imagens/ação/ação1.png" id="acao1">
+                </div>
+                <form class="col-5">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Seu Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="email@qualquer.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Texto</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary mb-2">Enviar</button>
+                </form>
+            </div>
+        </div>
         <p id="rodape" class="lead">João Porcel-3006867</p>
     </footer>
 
