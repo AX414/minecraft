@@ -35,15 +35,16 @@ footer{
     z-index: 1;
 }
 
-footer div{
+footer #rodape{
     color:black;
     text-indent: 4em;
     margin-right: 35%;
     margin-left: 35%;
+    
 }
 
 p{
-    text-indent: 4em;
+    text-indent: 2em;
     margin-left:5%;
     margin-right:5%;
     text-align: justify;
@@ -58,15 +59,51 @@ h5{
     font-size: 20px;
 }
 
-#acao2,#acao3{
-    float: left;
-    width: 400px;
-    bottom:0;
-    margin-top: 5%;
-
+form{
+    margin-left:40%;
+    margin-right:10%;
+    width: 300px;
 }
 
-#apresentacao1,#apresentacao2,#apresentacao3,#apresentacao4{
+
+form button{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+video{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#acao1{
+    float: left;
+    width: 380px;
+    bottom:0;
+    display: inline-flex;
+}
+
+#acao2{
+    float: left;
+    width: 380px;
+    bottom:0;
+    display: inline-flex;
+    margin-top: 10%;
+}
+
+#acao3{
+    float: left;
+    width: 380px;
+    bottom:0;
+    display: inline-flex;
+}
+
+#video{
+    width: 640px;
+}
+
+
+#apresentacao1,#apresentacao2,#apresentacao3,#apresentacao4,#apresentacao5,#apresentacao6,#apresentacao7{
     margin-top:10%;
     margin-bottom:5%;
     margin-left:10%;
@@ -98,6 +135,49 @@ h5{
     width: 100%;
 }
 
+#apresentacao4 a{
+    z-index:0;
+}
+
+#apresentacao5 #imagem1{
+    display: inline-flex;
+    width: 23%;
+    margin-left: 10%;
+}
+
+#apresentacao5 #imagem2{
+    display: inline-flex;
+    width: 23%;
+    margin-left: 10%;
+}
+
+#apresentacao5 #imagem3{
+    display: inline-flex;
+    width: 23%;
+    margin-left: 10%;
+}
+
+
+#apresentacao5 #imagens{
+    display: inline;
+}
+
+#referencia{
+    margin-top: 5%;
+    display: inline-flex;
+    width: 23%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#apresentacao5 #imagem1,#imagem2,#imagem3:hover{
+    cursor:pointer;
+}
+
+#ico_mojang{
+    border-radius: 25px;
+}
+
 #navbarNav{
     display: flex;
     justify-content: space-evenly;
@@ -107,12 +187,25 @@ h5{
     text-align: center;
 }
 
+#espaco_em_branco{
+    margin-left: 800px;
+}
+
+#drop1{
+    margin-right: 20px;
+}
+
+.referencia{
+    display: inline-block;
+}
+
 .comentario{
     left: 0;
     height: 130px;
     width: 100%;
     bottom:0;
     background-color: #f7f7f7;
+    z-index: 0;
 }
 
 .carousel-inner{
@@ -123,7 +216,7 @@ h5{
 @media screen and (max-width: 590px) {
 
 
-#apresentacao1,#apresentacao2{
+#apresentacao1,#apresentacao2,#apresentacao3,#apresentacao4,#apresentacao5,#apresentacao6,#apresentacao7{
     margin-top:100px;
 }
 
@@ -143,6 +236,19 @@ h5{
     font-size: 18px;
 }
 
+#apresentacao5 h1{
+    font-size: 18px;
+}
+
+#apresentacao6 h1{
+    font-size: 18px;
+}
+
+#apresentacao7 h1{
+    font-size: 18px;
+}
+
+
 #apresentacao1 p {
     margin-left:5%;
     margin-right:5%;
@@ -161,7 +267,40 @@ h5{
     font-size: 16px;
 }
 
-#icone2{
+#apresentacao5 #imagens{
+    display: block;
+    margin-left:15%;
+    margin-right:10%;
+    margin-bottom:10%;
+    
+}
+
+#apresentacao5 #imagem1{
+    width: 15px;
+}
+
+#apresentacao5 #imagem2{
+    width: 15px;
+}
+
+#apresentacao5 #imagem3{
+    width: 15px;
+}
+
+
+
+
+#referencia{
+    margin-left:5%;
+    margin-top:15%;
+    margin-right:5%;
+    font-size: 16px;
+    display: block;
+    width: 90%;
+}
+
+
+#icone2,#livro{
     width: 20px;
 }
 
@@ -183,7 +322,7 @@ h5{
 @media screen and (max-height: 490px) {
 
 
-    #apresentacao1,#apresentacao2,#apresentacao3,#apresentacao4{
+    #apresentacao1,#apresentacao2,#apresentacao3,#apresentacao4,#apresentacao5{
         margin-top:100px;
     }
     
@@ -203,6 +342,10 @@ h5{
         font-size: 22px;
     }
     
+    #apresentacao5 h1{
+        font-size: 22px;
+    }
+
     #apresentacao1 p {
         margin-left:5%;
         margin-right:5%;
@@ -220,17 +363,56 @@ h5{
         margin-right:5%;
         font-size: 16px;
     }
+
+    #apresentacao5 p {
+        margin-left:5%;
+        margin-right:5%;
+        font-size: 16px;
+    }
+
+    #ico_mojang,#ico_wiki,#ico_mine{
+        width: 120px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     
-    #icone2{
+    #apresentacao5 #imagem1,#imagem2,#imagem3{
+        display: inline-flex;
+        width: 20%;
+        margin-left: 20px;
+    }
+    
+    #referencia{
+        display: inline-flex;
+        width: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    #imagensAcao{
+        margin-bottom: 35%;
+        margin-left:40%;
+        margin-right:40%;
+    }
+
+    #icone2,#livro{
         width: 20px;
     }
     
-    #acao2,#acao3{
+    #acao2{
         justify-content: center;
         width: 350px;
         margin-right: 10%;
         margin-left: 10%;
     }
+
+    #acao3{
+        justify-content: center;
+        width: 350px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    
     
     .comentario{
         visibility: hidden;
