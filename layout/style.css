@@ -405,9 +405,20 @@ width: 280px;
 
     #ico_mojang,#ico_wiki,#ico_mine{
         width: 120px;
-        margin-left: 10%;
-        margin-right: 10%;
     }
+    
+    #ico_mojang{
+        margin-inline-start: 20px;
+    }
+
+    #ico_wiki{
+        margin-inline-start: 30px;
+    }
+
+    #ico_mine{
+        margin-inline-start: 20px;
+    }
+    
     
     #apresentacao5 #imagem1,#imagem2,#imagem3{
         display: inline-flex;
@@ -444,15 +455,8 @@ width: 280px;
         margin-right: 10%;
         margin-left: 10%;
     }
-    
-    
+
     .comentario{
         visibility: hidden;
     }
-    
-
-
-
-
-
 }
